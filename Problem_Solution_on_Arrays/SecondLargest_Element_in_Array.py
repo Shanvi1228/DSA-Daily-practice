@@ -23,7 +23,7 @@ data_list = [10, 5, 20, 8, 15]
 solution = sdlargest()
 solution.find_sdlargest(data_list)
 result = solution.find_sdlargest(data_list) 
-
+print(result)
 
 #Time Complexity- O(n)	
 The algorithm iterates through the list once.
@@ -32,4 +32,3 @@ The algorithm iterates through the list once.
 The algorithm uses only a few fixed-size variables (largest, slargest) regardless of the input size.
 
 
-print(result)
