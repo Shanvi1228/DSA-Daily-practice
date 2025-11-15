@@ -1,4 +1,5 @@
 #By using a Loop.
+#Brute force Method.
 
 def union_arr(data_list1, data_list2):
     data_list3 = [] 
@@ -21,6 +22,7 @@ print(sol)
 # -------------------------------------------------
 
 #BY using the sets.
+#Optimal Method.
 
 def union_arr(data_list1, data_list2):
 
@@ -37,3 +39,6 @@ data_list2 = [1, 4, 4, 5, 6]
 
 sol = union_arr(data_list1, data_list2)
 print(sol)
+
+
+
